@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Cho Han Seok">
+    	<meta name="keywords" content="대전, 대전시티즌, 이글스, 오월드, 아쿠아리움, 대전공연, 꿈돌이, 대전데이트,">
+    	<meta name="description" content="본 사이트에 로그인을 도움">
+		<title>Login Is U</title>
+		<link type="text/css" rel="stylesheet" href="classMain.CSS"></link>
+	</head>
+	<body>
+	<body bgcolor= #CCFFFF>
+	<div id="wrap"></div>
+ 	<header>
+ 		<div class = "wrapper">
+ 		<a href="file:///D:/HTMLworkspace/ch12JQuery/src/main/webapp/project/%EC%A0%9C%EC%B6%9C%EA%B3%BC%EC%A0%9C.html" target="_self">
+ 		<img src="images.png" class="img_logo"/></a>
+		<ul  style="list-style-type:none" class = "menu">
+			<li style="display:inline"><a href = "introduce.html">대전소개</a></li>
+			<li style="display:inline"><a href = "culture.html">문화생활</a>
+				<ul>						
+					<li><a href="culture.html">프로축구</a></li>
+					<li><a href="culture1.html">프로야구</a></li>
+					<li><a href="culture2.html">아쿠아리움</a></li>
+					<li><a href="culture3.html">오월드</a></li>
+					<li><a href="culture4.html">기타 공연</a></li>
+				</ul>
+			</li>
+			<li style="display:inline"><a href = "community.html">자유게시판</a></li>
+			<li style="font-size:10px;"><a href = "login.html">로그인</a></li>
+			<li style="font-size:10px; border-left: 1px solid #c0c0c0;"><a href = "Join.html">회원가입</a></li>
+		</ul>
+		</div>
+	</header>
+		<h1 align="center">Login</h1><hr>
+		<div class="parent">
+  		<div class="centered">
+		<form method="post" id="authForm" action="login.JS">
+		<input type="hidden" name="redirectUrl" velue="logingogo">
+			<fieldset>
+				<legend><h3>로그인을 정보 입력</h3></legend>
+				<div class="box_login">
+					<div class="inp_text">
+					아이디&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="email" id="loginId" name="logoinId" placeholder="ID" required>
+					</div><br/>
+					<div>
+					비밀번호&nbsp;&nbsp;
+					<input type="passWord"  name="password" placeholder="Password" required>
+					</div><br/>
+				</div>
+				<div align="center">
+				<button type="submit">로그인</button></div><br/>
+				<div class="login_append">
+				<div class="inp_chk">
+				<input type="checkbox" name="keepLogin">로그인 상태 유지
+				</div><br/>
+				<a href="/member/fine/loginId">아이디</a>
+				/
+				<a href="/member/fine/password">비밀번호찾기</a>
+				</div>
+			</fieldset>
+		</form>
+		</div>
+		</div>
+	</body>
+	<footer>
+		<hr size="10" align="left" width=100% noshade="noshade"></hr>
+		<small>
+			&nbsp;&nbsp; 인공지능적용 애플리케이션 및 서버사이드 과정 
+			&nbsp; |  &nbsp;비젼직업전문학교<br/>
+ 			&nbsp;&nbsp; 각종문의 : wh7840@naver.com  &nbsp;| 연락처 : 010-0000-000<br/>
+ 			&nbsp;&nbsp; Copyright &copy; 2021 All Rigths Reserved.
+ 	   	</small>
+	</footer>
+</html>
